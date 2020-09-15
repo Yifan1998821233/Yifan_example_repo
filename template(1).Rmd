@@ -1,0 +1,23 @@
+---
+title: "Simple document"
+author: Yifan Su
+output: github_document
+---
+
+I'm an R Markdown document! 
+This is a document for P8105.
+
+# Section 1
+
+Here's a **code chunk** that samples from 
+a _normal distribution_:
+
+```{r}
+samp = rnorm(100)
+length(samp)
+```
+
+# Section 2
+
+I can take the mean of the sample, too!
+The mean is `r mean(samp)`.
