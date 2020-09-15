@@ -1,7 +1,7 @@
 ---
 title: "Simple document"
 author: Yifan Su
-output: github_document
+output: html_document
 ---
 
 I'm an R Markdown document! 
